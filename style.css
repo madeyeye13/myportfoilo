@@ -248,11 +248,12 @@ nav {
 
 .aboutimg img {
     display: block;
-    width: 100%;
+    width: 80%;
     height: auto;
     position: relative;
     top: 20px;
-    filter: contrast(110%);
+    left: 25px;
+    /* filter: contrast(110%); */
 }
 
 .hireme button{
