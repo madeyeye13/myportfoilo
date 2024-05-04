@@ -50,6 +50,7 @@ nav {
     margin: 5px 0;
     position: relative;
     top: 5px;
+    left: 10px;
 }
 
 
@@ -152,12 +153,122 @@ nav {
     width: 170px;
     height: 50px;
     font-family: "Inconsolata", monospace;
-    font-size: 15px;
-    font-weight: 700;
+    font-size: 20px;
+    font-weight: 500;
+    word-spacing: -5px;
 }
 
 .heroimg img {
     width: 340px;
     position: relative;
     top: 40px;
+}
+
+/* <!--------End of Hero Section-------> */
+
+#About {
+    display: flex;
+    flex-direction: column;
+    padding: 0 20px;
+    position: relative;
+    top: 80px;
+}
+
+#About * {
+    margin-bottom: 30px;
+}
+
+.me h5 {
+    font-family: "Montserrat", sans-serif;
+    color: #fd9501;
+    font-size: 15px;
+    font-weight: 600;
+}
+
+.me h3 {
+    font-family: "Inconsolata", monospace;
+    font-size: 25px;
+    position: relative;
+    bottom: 20px;
+}
+
+.me p {
+    font-family: "Montserrat", sans-serif;
+    line-height: 25px;
+    font-size: 15px;
+    color: #d7d6d6;
+    position: relative;
+    bottom: 20px;
+}
+
+.me span {
+    font-weight: 500;
+    color: #fdedd5;
+    animation: changeColorMe 2s infinite alternate;
+}
+
+
+@keyframes changeColorMe {
+    0% {
+        color: #d7d6d6; 
+    }
+    100% {
+        color: #fdedd5; 
+    }
+}
+
+.line {
+    display: flex;
+    flex-direction: row;
+}
+
+.line hr {
+    width: 100px;
+    height: 3px;
+    background-color: #fff;
+    border: none;
+    position: relative;
+    top: 7px;
+    margin-left: 20px;
+
+}
+
+
+.aboutimg {
+    display: inline-block;
+    background-color: #f4fff1;
+    width: 350px;
+    height: 350px;
+    position: relative;
+    bottom: 20px;
+    overflow: hidden;
+    border-radius: 8px;
+    padding: 10px;
+}
+
+.aboutimg img {
+    display: block;
+    width: 100%;
+    height: auto;
+    position: relative;
+    top: 20px;
+    filter: contrast(110%);
+}
+
+.hireme button{
+    background-color: #fd9501;
+    color: #fff;
+    border-radius: 50px;
+    border: none;
+    width: 170px;
+    height: 50px;
+    font-family: "Inconsolata", monospace;
+    font-size: 20px;
+    font-weight: 500;
+    word-spacing: -5px;
+}
+
+.hrtwo {
+    position: relative;
+    top: 70px;
 }
